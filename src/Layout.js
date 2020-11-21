@@ -5,10 +5,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <NavBar />
-      <p>
-        Menu
-        <main>{children}</main>
-      </p>
+      <p>Menu</p>
+      <main>{children}</main>
     </>
   );
 };
