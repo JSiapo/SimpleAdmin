@@ -5,7 +5,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <NavBar />
-      {children}
+      <p>
+        Menu
+        <main>{children}</main>
+      </p>
     </>
   );
 };
